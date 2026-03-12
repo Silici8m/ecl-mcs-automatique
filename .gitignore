@@ -39,4 +39,6 @@ codegen/
 *.sbproj.backup
 *.sbproj.bak
 
+# autres
 desktop.ini
+*.docx
