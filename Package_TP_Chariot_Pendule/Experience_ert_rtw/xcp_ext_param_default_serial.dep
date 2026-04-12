@@ -1,0 +1,29 @@
+xcp_ext_param_default_serial.o: \
+ /usr/local/MATLAB/R2025b/toolbox/coder/xcp/src/target/ext_mode/src/xcp_ext_param_default_serial.c \
+ /home/victor/MCS/Package_TP_Chariot_Pendule/Experience_ert_rtw/rtwtypes.h \
+ /usr/local/MATLAB/R2025b/simulink/include/rtw_extmode.h \
+ /usr/local/MATLAB/R2025b/toolbox/coder/xcp/src/target/server/common/xcp_common.h \
+ /usr/local/MATLAB/R2025b/toolbox/coder/xcp/src/target/server/platform/include/xcp_platform.h \
+ /home/victor/Documents/MATLAB/SupportPackages/R2025b/toolbox/target/supportpackages/arduinotarget/include/xcp_platform_custom.h \
+ /home/victor/Documents/MATLAB/SupportPackages/R2025b/3P.instrset/arduinoide.instrset/aCLI/data/packages/arduino/hardware/avr/1.8.3/cores/arduino/Arduino.h \
+ /home/victor/Documents/MATLAB/SupportPackages/R2025b/3P.instrset/arduinoide.instrset/aCLI/data/packages/arduino/hardware/avr/1.8.3/cores/arduino/binary.h \
+ /home/victor/Documents/MATLAB/SupportPackages/R2025b/3P.instrset/arduinoide.instrset/aCLI/data/packages/arduino/hardware/avr/1.8.3/variants/mega/pins_arduino.h \
+ /usr/local/MATLAB/R2025b/toolbox/coder/xcp/src/target/ext_mode/src/xcp_ext_param.h
+
+/home/victor/MCS/Package_TP_Chariot_Pendule/Experience_ert_rtw/rtwtypes.h:
+
+/usr/local/MATLAB/R2025b/simulink/include/rtw_extmode.h:
+
+/usr/local/MATLAB/R2025b/toolbox/coder/xcp/src/target/server/common/xcp_common.h:
+
+/usr/local/MATLAB/R2025b/toolbox/coder/xcp/src/target/server/platform/include/xcp_platform.h:
+
+/home/victor/Documents/MATLAB/SupportPackages/R2025b/toolbox/target/supportpackages/arduinotarget/include/xcp_platform_custom.h:
+
+/home/victor/Documents/MATLAB/SupportPackages/R2025b/3P.instrset/arduinoide.instrset/aCLI/data/packages/arduino/hardware/avr/1.8.3/cores/arduino/Arduino.h:
+
+/home/victor/Documents/MATLAB/SupportPackages/R2025b/3P.instrset/arduinoide.instrset/aCLI/data/packages/arduino/hardware/avr/1.8.3/cores/arduino/binary.h:
+
+/home/victor/Documents/MATLAB/SupportPackages/R2025b/3P.instrset/arduinoide.instrset/aCLI/data/packages/arduino/hardware/avr/1.8.3/variants/mega/pins_arduino.h:
+
+/usr/local/MATLAB/R2025b/toolbox/coder/xcp/src/target/ext_mode/src/xcp_ext_param.h:

@@ -1,0 +1,13 @@
+numpy==1.26.4
+scipy
+pyserial
+gmsh
+svg.path
+dynamixel-sdk
+opencv-python
+--find-links https://github.com/cansik/pyrealsense2-macosx/releases; sys_platform == 'macos'
+pyrealsense2; platform_system == "Windows" or platform_system == "Linux"
+pyrealsense2-macosx; platform_system == "macos"
+control==0.10.2
+emioapi @ git+https://github.com/SofaComplianceRobotics/Emio.API.git@main
+

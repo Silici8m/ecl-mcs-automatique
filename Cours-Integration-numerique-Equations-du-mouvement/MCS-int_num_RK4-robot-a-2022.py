@@ -10,7 +10,7 @@ from math import pi, sqrt, cos, sin
 # –––– Initialisation ––––––––––––––––––––––––––––––––––––––––––––-
 # Conditions initiales
 lambda0 = 0.      # position initiale lambda
-phi0 = 0. #pi/4       # position initiale phy
+phi0 = pi/2       # position initiale phy
 dlambda0 = 0.     # vitesse initiale
 dphi0 = 0.
 #
@@ -43,7 +43,7 @@ def f(t,y):
   # 
   a1 = .05     # N.m/V
   b1 = .0233   # N.m.s/rd
-  u1 = 9.      # V Tension nominale
+  u1 = 0#9.      # V Tension nominale
   r = 0.0291   # m rayon primitif roue chenille
 
  # masse totale du robot
@@ -59,7 +59,7 @@ def f(t,y):
   dphi=y[3]
  
   # Force motrice chenilles
-  Fc=2/r*(a1*u1-b1*dlambda/r)
+  Fc=0#2/r*(a1*u1-b1*dlambda/r)
   #F=0.
   #
   # Equations differentielles en vitesse
@@ -94,10 +94,10 @@ np.savetxt(test[0]+'.csv',y,delimiter=';')
 # Graph des résultats –––––––––––––––––––––––––––––––––––––––––––––-
 fig1 = plt.figure(1)
 title = [test[0]]
-scale = [.1,1,1,.1]
+scale = [1,.1,1,.1]
 color = ['r','c','b','g']
-label = ["lambda [10*m]","phi [rad]","dlambda [m/s]","dphi [10*rad/s]"]
-for i in range(0,4):
+label = ["lambda [m]","phi [10*rad]","dlambda [m/s]","dphi [10*rad/s]"]
+for i in range(0,2):
  plt.plot(t,y[:,i]*scale[i],color[i],label=label[i])
 plt.legend()
 plt.title(title[0])
